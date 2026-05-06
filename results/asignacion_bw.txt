@@ -1,0 +1,3 @@
+Valor optimo total: 0 centavos
+Numero de solicitudes seleccionadas: 0
+IDs seleccionados:

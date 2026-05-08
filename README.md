@@ -54,10 +54,6 @@ Comandos útiles (ejemplo)
 
 g++ -std=c++17 -O2 -o ada_pf src/*.cpp && ./ada_pf data/WA_Fn-UseC_-Telco-Customer-Churn.csv
 
-
-ls -la results/
-sed -n '1,120p' results/busquedas_A.txt
-cat results/mst_red.txt
 ```
 
 Estructura del repositorio

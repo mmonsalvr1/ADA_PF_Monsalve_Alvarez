@@ -3,4 +3,6 @@ Q_A: 60 -> customerID: 7426-WEIJX (tenure: 60)
 Q_A: 45 -> customerID: 7925-PNRGI (tenure: 45)
 Q_A: 30 -> customerID: 2684-EIWEO (tenure: 30)
 Q_A: 12 -> customerID: 7450-NWRTR (tenure: 12)
-Tiempo MergeSort: 3.88992 ms
+Tiempo MergeSort (n=1000, muestra barajada): 1.08443 ms
+Tiempo MergeSort (n=3500, muestra barajada): 4.22283 ms
+Tiempo MergeSort (n=7043, conjunto completo): 10.14610 ms

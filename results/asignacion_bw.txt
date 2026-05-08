@@ -1,3 +1,15 @@
 Valor optimo total: 0 centavos
 Numero de solicitudes seleccionadas: 0
 IDs seleccionados:
+
+Contraejemplo didactico al enfoque codicioso por ratio:
+Se usan tres IDs reales como etiquetas, pero los pesos y valores son construidos solo para ilustrar el fallo.
+Solicitudes: 5248-YGIJN, 6234-RAAPL, 5954-BDFSG
+Ejemplo numerico construido:
+- 5248-YGIJN: peso=6, valor=30 (ratio=5.0)
+- 6234-RAAPL: peso=5, valor=24 (ratio=4.8)
+- 5954-BDFSG: peso=5, valor=20 (ratio=4.0)
+Capacidad W_demo = 10
+Codicioso (por ratio) selecciona: {5248-YGIJN} -> valor total = 30 (no cabe otra)
+Programacion Dinamica (optimo) selecciona: {6234-RAAPL, 5954-BDFSG} -> valor total = 44
+Conclusion: el enfoque codicioso por ratio no produce la solucion optima en este caso construido.
